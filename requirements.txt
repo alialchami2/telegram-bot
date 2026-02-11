@@ -1,0 +1,18 @@
+# Gold AI Signal Bot - Dependencies
+
+# Core libraries
+numpy>=1.24.0
+requests>=2.31.0
+
+# Optional but recommended for production
+pandas>=2.0.0
+python-dotenv>=1.0.0
+
+# For live data (choose based on your broker)
+# MetaTrader5>=5.0.45  # Uncomment if using MT5
+# alpaca-trade-api>=3.0.0  # Uncomment if using Alpaca
+# yfinance>=0.2.0  # For free historical data
+
+# For advanced features
+# ta>=0.11.0  # Technical analysis library
+# schedule>=1.2.0  # For scheduling tasks
